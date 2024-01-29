@@ -156,17 +156,16 @@ export default function Send() {
                                 <input type="text" placeholder="total amount" value={tokenAmount} onChange={tokenAmountChange} className="input input-bordered input-primary w-1/2" />
                                 <button className="ml-10 w-1/3 btn" onClick={avg} >Split</button>
                             </div>
+                            
+                            <div className="mt-10 flex flex-row">
+                                <button onClick={send} className={`btn btn-primary rounded-xl w-full`}>
+                                    {loading == "" ? "Send" : (<><span className="loading loading-spinner"></span>loading</>)
+                                    }
+                                </button>
+                            </div>
 
                         </div>
                     </div>
-                </div>
-
-
-                <div>
-                    <button onClick={send} className={`btn btn-primary btn-wide normal-case  rounded-xl `}>
-                        {loading == "" ? "Send" : (<><span className="loading loading-spinner"></span>loading</>)
-                        }
-                    </button>
                 </div>
             </div>
         </div>
