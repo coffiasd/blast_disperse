@@ -157,7 +157,7 @@ export default function Send() {
                                 <button className="ml-10 w-1/3 btn" onClick={avg} >Split</button>
                             </div>
                             
-                            <div className="mt-10  flex flex-row">
+                            <div className="mt-10 flex flex-row">
                                 <button onClick={send} className={`btn btn-primary rounded-xl w-full`}>
                                     {loading == "" ? "Send" : (<><span className="loading loading-spinner"></span>loading</>)
                                     }
