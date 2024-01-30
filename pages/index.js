@@ -11,7 +11,7 @@ const Header = dynamic(() => import('../components/Header'), {
   ssr: false,
 })
 
-const Sender = dynamic(() => import('../components/Send'), {
+const Sender = dynamic(() => import('../components/send'), {
   ssr: false,
 })
 
