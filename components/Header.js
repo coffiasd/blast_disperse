@@ -34,7 +34,7 @@ export default function Header() {
                         </Link>
                     </li>
                     <li className='mt-1'>
-                        <Link href="https://twitter.com/coffiasse">
+                        <Link href="https://twitter.com/nifty12111">
                             <a target="_blank" className={`${styles.leftToRight}`}>
                                 <FaTwitter size="1.2rem" />&nbsp;&nbsp;<div className='font-bold'>TWITTER</div>
                             </a>
